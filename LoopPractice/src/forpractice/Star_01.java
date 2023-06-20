@@ -1,6 +1,6 @@
 package forpractice;
 
-public class star_01 {
+public class Star_01 {
 
 	public static void main(String[] args) {
 		int i, j;
