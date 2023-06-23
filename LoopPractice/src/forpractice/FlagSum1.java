@@ -7,17 +7,16 @@ public class FlagSum1 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("정수 입력: ");
 		int n = sc.nextInt();
-		int even = 0, odd = 0, result;
+		int sum=0;
 		
 		for(int i=1; i<=n; i++) {
 			if(i%2==0) {
-				even -= i;
+				sum -= i;
 			}
 			else if(i%2==1) {
-				odd += i;
+				sum += i;
 			}
 		}
-		result = even + odd;
-		System.out.println(n + "까지 (+)홀수 (-)짝수의 합: " + result);
+		System.out.println(n + "까지 (+)홀수 (-)짝수의 합: " + sum);
 	}
 }
